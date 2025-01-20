@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: POC
+  description: >
+    <div class="login-form">
+      <div class="heading">
+        <h1>External Login Page</h1>
+      </div>
+      <div class="form-container">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <div class="form-group">
+          <a href="https://identity.bugcrowd.com/login">
+            <button type="button">Login</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  version: "1.0.0"
+servers: {}
+paths: {}
